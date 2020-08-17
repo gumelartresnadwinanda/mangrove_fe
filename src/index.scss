@@ -1,0 +1,107 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  padding: 32px;
+}
+
+.mb- {
+  &8{
+    margin-bottom: 8px !important;
+  }
+  &16{
+    margin-bottom: 16px !important;
+  }
+  &32{
+    margin-bottom: 32px !important;
+  }
+  &56{
+    margin-bottom: 56px !important;
+  }
+}
+.mt- {
+  &8{
+    margin-top: 8px !important;
+  }
+  &16{
+    margin-top: 16px !important;
+  }
+  &32{
+    margin-top: 32px !important;
+  }
+}
+.ml- {
+  &8{
+    margin-left: 8px !important;
+  }
+  &16{
+    margin-left: 16px !important;
+  }
+  &32{
+    margin-left: 32px !important;
+  }
+}
+.mr- {
+  &8{
+    margin-right: 8px !important;
+  }
+  &16{
+    margin-right: 16px !important;
+  }
+  &32{
+    margin-bottom: 32px !important;
+  }
+}
+
+.p-{
+  &8 {
+    padding: 8px !important;
+  }
+  &16 {
+    padding: 16px !important;
+  }
+}
+
+.pl- {
+  &8{
+    padding-left: 8px !important;
+  }
+  &16{
+    padding-left: 16px !important;
+  }
+}
+
+.pr- {
+  &8{
+    padding-right: 8px !important;
+  }
+  &16{
+    padding-right: 16px !important;
+  }
+}
+
+.small-table, .text-standard {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.currency {
+  letter-spacing: .5px;
+}
+
+.table th, .table td{
+  padding: 8px 4px;
+}
